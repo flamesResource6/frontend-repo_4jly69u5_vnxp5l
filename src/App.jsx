@@ -7,8 +7,8 @@ import Schedule from './components/Schedule'
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0b0f14]">
-      <header className="fixed top-0 inset-x-0 z-50 bg-gradient-to-b from-[#0b0f14]/80 to-transparent backdrop-blur">
+    <div className="min-h-screen bg-[#0b1512]">
+      <header className="fixed top-0 inset-x-0 z-50 bg-gradient-to-b from-[#0b1512]/80 to-transparent backdrop-blur">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#" className="text-[#f5f2ea] font-semibold text-lg tracking-wide">Gurgaon Landbase</a>
           <nav className="hidden md:flex items-center gap-6 text-[#f5f2ea]/80">
@@ -17,7 +17,7 @@ function App() {
             <a href="#schedule" className="hover:text-[#f5f2ea]">Schedule</a>
             <a href="#contact" className="hover:text-[#f5f2ea]">Contact</a>
           </nav>
-          <a href="#contact" className="px-4 py-2 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold shadow-md">Enquire</a>
+          <a href="#contact" className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold shadow-md">Enquire</a>
         </div>
       </header>
 
@@ -30,7 +30,7 @@ function App() {
         <Contact />
       </main>
 
-      <footer className="border-t border-white/10 py-8 bg-[#0b0f14]">
+      <footer className="border-t border-white/10 py-8 bg-[#0b1512]">
         <div className="container mx-auto px-6 text-[#f5f2ea]/70 text-sm flex flex-col sm:flex-row justify-between gap-2">
           <p>© {new Date().getFullYear()} Gurgaon Landbase. All rights reserved.</p>
           <p>Serving Gurgaon & NCR • Luxury real estate advisory</p>

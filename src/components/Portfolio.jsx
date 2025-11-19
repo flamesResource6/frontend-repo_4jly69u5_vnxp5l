@@ -7,14 +7,14 @@ export default function Portfolio() {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-[#0b0f14]">
+    <section id="portfolio" className="py-20 bg-[#0b1512]">
       <div className="container mx-auto px-6">
         <div className="flex items-end justify-between mb-8">
           <div>
             <h2 className="text-3xl sm:text-5xl font-bold text-[#f5f2ea]">Signature Portfolio</h2>
             <p className="mt-3 text-[#f5f2ea]/70">Current focus: The Majestic by JMS • Low-rise luxury apartments</p>
           </div>
-          <a href="#contact" className="hidden md:inline-block px-5 py-3 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold">Request Brochure</a>
+          <a href="#contact" className="hidden md:inline-block px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">Request Brochure</a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map((item) => (

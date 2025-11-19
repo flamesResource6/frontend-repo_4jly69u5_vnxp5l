@@ -20,13 +20,13 @@ export default function Hero() {
               Bespoke advisory for premium buyers & sellers across Gurgaon and the NCR.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a href="#portfolio" className="px-6 py-3 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold shadow-lg hover:shadow-xl transition">Explore The Majestic</a>
+              <a href="#portfolio" className="px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold shadow-lg hover:shadow-xl transition">Explore The Majestic</a>
               <a href="#schedule" className="px-6 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/20 backdrop-blur hover:bg-white/20 transition">Schedule a Private Tour</a>
             </div>
           </div>
         </div>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f14] via-[#0b0f14]/40 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0b1512] via-[#0b1512]/40 to-transparent pointer-events-none" />
     </section>
   );
 }

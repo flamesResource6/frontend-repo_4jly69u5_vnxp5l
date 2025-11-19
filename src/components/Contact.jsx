@@ -30,7 +30,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-[#0b0f14]">
+    <section id="contact" className="py-20 bg-[#0b1512]">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-3xl sm:text-5xl font-bold text-[#f5f2ea]">Contact Gurgaon Landbase</h2>
@@ -49,7 +49,7 @@ export default function Contact() {
             <input type="datetime-local" placeholder="Preferred date & time" className="px-4 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/10" value={form.preferred_datetime} onChange={e=>setForm({...form, preferred_datetime:e.target.value})} />
             <textarea placeholder="Message" rows="4" className="sm:col-span-2 px-4 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/10" value={form.message} onChange={e=>setForm({...form, message:e.target.value})}></textarea>
           </div>
-          <button type="submit" className="mt-6 w-full px-6 py-3 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold">
+          <button type="submit" className="mt-6 w-full px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">
             {status === 'sending' ? 'Sending…' : 'Send Enquiry'}
           </button>
           {status === 'sent' && <p className="mt-3 text-emerald-400">Thank you. We will be in touch shortly.</p>}

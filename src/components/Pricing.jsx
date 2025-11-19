@@ -18,7 +18,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section id="pricing" className="relative py-20 bg-[#0b0f14]">
+    <section id="pricing" className="relative py-20 bg-[#0b1512]">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-5xl font-bold text-[#f5f2ea]">Transparent, Premium Services</h2>
@@ -28,9 +28,9 @@ export default function Pricing() {
           {tiers.map((t) => (
             <div key={t.name} className="rounded-2xl bg-white/5 border border-white/10 p-8 backdrop-blur hover:bg-white/10 transition">
               <h3 className="text-xl font-semibold text-[#f5f2ea]">{t.name}</h3>
-              <p className="mt-2 text-3xl font-extrabold text-[#d4af37]">{t.price}</p>
+              <p className="mt-2 text-3xl font-extrabold text-emerald-400">{t.price}</p>
               <p className="mt-3 text-[#f5f2ea]/70">{t.desc}</p>
-              <a href="#contact" className="mt-6 inline-block px-5 py-3 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold shadow">Enquire</a>
+              <a href="#contact" className="mt-6 inline-block px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold shadow">Enquire</a>
             </div>
           ))}
         </div>
