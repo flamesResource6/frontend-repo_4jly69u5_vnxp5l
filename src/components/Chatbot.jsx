@@ -96,7 +96,7 @@ export default function Chatbot() {
             </div>
             <form onSubmit={(e)=>{e.preventDefault();handleSend()}} className="flex gap-2">
               <input className="flex-1 px-4 py-3 rounded-xl bg-[#f5f2ea] text-[#0b1512]" placeholder="Ask about properties, pricing, tours…" value={input} onChange={e=>setInput(e.target.value)} />
-              <button className="px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">Send</button>
+              <button className="px-5 py-3 rounded-xl bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold">Send</button>
             </form>
 
             {meetingRequested && (
@@ -106,8 +106,8 @@ export default function Chatbot() {
                 <input name="email" required type="email" placeholder="Email" className="w-full px-3 py-2 rounded-lg bg-white/10 text-[#f5f2ea] border border-white/10" />
                 <input name="phone" placeholder="Phone" className="w-full px-3 py-2 rounded-lg bg-white/10 text-[#f5f2ea] border border-white/10" />
                 <input name="datetime" type="datetime-local" className="w-full px-3 py-2 rounded-lg bg-white/10 text-[#f5f2ea] border border-white/10" />
-                <button className="w-full px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">Request Meeting</button>
-                <a href={bookingUrl} target="_blank" rel="noreferrer" className="block text-center text-emerald-300 underline mt-2">Or pick a slot via our booking page</a>
+                <button className="w-full px-4 py-2 rounded-lg bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold">Request Meeting</button>
+                <a href={bookingUrl} target="_blank" rel="noreferrer" className="block text-center text-[#9be15e] underline mt-2">Or pick a slot via our booking page</a>
               </form>
             )}
           </div>

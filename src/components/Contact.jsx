@@ -49,10 +49,10 @@ export default function Contact() {
             <input type="datetime-local" placeholder="Preferred date & time" className="px-4 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/10" value={form.preferred_datetime} onChange={e=>setForm({...form, preferred_datetime:e.target.value})} />
             <textarea placeholder="Message" rows="4" className="sm:col-span-2 px-4 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/10" value={form.message} onChange={e=>setForm({...form, message:e.target.value})}></textarea>
           </div>
-          <button type="submit" className="mt-6 w-full px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">
+          <button type="submit" className="mt-6 w-full px-6 py-3 rounded-xl bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold">
             {status === 'sending' ? 'Sending…' : 'Send Enquiry'}
           </button>
-          {status === 'sent' && <p className="mt-3 text-emerald-400">Thank you. We will be in touch shortly.</p>}
+          {status === 'sent' && <p className="mt-3 text-[#7bd23b]">Thank you. We will be in touch shortly.</p>}
           {status === 'error' && <p className="mt-3 text-rose-400">Something went wrong. Please try again.</p>}
         </form>
       </div>

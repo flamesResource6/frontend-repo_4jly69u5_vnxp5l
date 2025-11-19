@@ -28,9 +28,9 @@ export default function Pricing() {
           {tiers.map((t) => (
             <div key={t.name} className="rounded-2xl bg-white/5 border border-white/10 p-8 backdrop-blur hover:bg-white/10 transition">
               <h3 className="text-xl font-semibold text-[#f5f2ea]">{t.name}</h3>
-              <p className="mt-2 text-3xl font-extrabold text-emerald-400">{t.price}</p>
+              <p className="mt-2 text-3xl font-extrabold text-[#7bd23b]">{t.price}</p>
               <p className="mt-3 text-[#f5f2ea]/70">{t.desc}</p>
-              <a href="#contact" className="mt-6 inline-block px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold shadow">Enquire</a>
+              <a href="#contact" className="mt-6 inline-block px-5 py-3 rounded-xl bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold shadow">Enquire</a>
             </div>
           ))}
         </div>

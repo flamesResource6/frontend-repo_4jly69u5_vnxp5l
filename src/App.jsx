@@ -17,7 +17,7 @@ function App() {
             <a href="#schedule" className="hover:text-[#f5f2ea]">Schedule</a>
             <a href="#contact" className="hover:text-[#f5f2ea]">Contact</a>
           </nav>
-          <a href="#contact" className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold shadow-md">Enquire</a>
+          <a href="#contact" className="px-4 py-2 rounded-xl bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold shadow-md">Enquire</a>
         </div>
       </header>
 

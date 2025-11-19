@@ -14,7 +14,7 @@ export default function Portfolio() {
             <h2 className="text-3xl sm:text-5xl font-bold text-[#f5f2ea]">Signature Portfolio</h2>
             <p className="mt-3 text-[#f5f2ea]/70">Current focus: The Majestic by JMS • Low-rise luxury apartments</p>
           </div>
-          <a href="#contact" className="hidden md:inline-block px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0b1512] font-semibold">Request Brochure</a>
+          <a href="#contact" className="hidden md:inline-block px-5 py-3 rounded-xl bg-[#174309] hover:bg-[#1e5a0c] text-[#f5f2ea] font-semibold">Request Brochure</a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map((item) => (
