@@ -9,24 +9,24 @@ export default function Hero() {
       <div className="relative z-10 h-full flex items-center">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur px-4 py-2 text-white border border-white/20">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur px-4 py-2 text-[#f5f2ea] border border-white/20">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              Luxury Real Estate, Curated for You
+              Gurgaon Landbase • Luxury Real Estate in NCR
             </span>
-            <h1 className="mt-6 text-4xl sm:text-6xl font-extrabold text-white tracking-tight">
-              Elevate Your Living with Bespoke Luxury Properties
+            <h1 className="mt-6 text-4xl sm:text-6xl font-extrabold text-[#f5f2ea] tracking-tight">
+              The Majestic by JMS • Low-rise Luxury Residences
             </h1>
-            <p className="mt-4 text-lg sm:text-xl text-white/80">
-              We specialize in buying and selling premium residences — penthouses, villas, and signature estates in top-tier locations.
+            <p className="mt-4 text-lg sm:text-xl text-[#f5f2ea]/80">
+              Bespoke advisory for premium buyers & sellers across Gurgaon and the NCR.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a href="#portfolio" className="px-6 py-3 rounded-xl bg-white text-slate-900 font-semibold shadow-lg hover:shadow-xl transition">Explore Portfolio</a>
-              <a href="#pricing" className="px-6 py-3 rounded-xl bg-white/10 text-white border border-white/20 backdrop-blur hover:bg-white/20 transition">View Pricing</a>
+              <a href="#portfolio" className="px-6 py-3 rounded-xl bg-[#d4af37] text-[#0b0f14] font-semibold shadow-lg hover:shadow-xl transition">Explore The Majestic</a>
+              <a href="#schedule" className="px-6 py-3 rounded-xl bg-white/10 text-[#f5f2ea] border border-white/20 backdrop-blur hover:bg-white/20 transition">Schedule a Private Tour</a>
             </div>
           </div>
         </div>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f14] via-[#0b0f14]/40 to-transparent pointer-events-none" />
     </section>
   );
 }
